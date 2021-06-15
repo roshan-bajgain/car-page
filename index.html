@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Oprah Likes You. And so do other people.</title>
+
+		<style>
+
+			/* Basic CSS comment */
+			body {
+				background: grey;
+				color: white;
+				width: 960px;
+				margin: 0 auto;
+				font-size: 30px;
+				color: black;
+			}
+
+			h1 {
+				font-size: 80px;
+				color: #333	;
+			}
+
+		</style>
+
+		<script>
+			/* this is an event */
+			/* alert("I'm annoying"); */
+
+			var username = prompt("Hello, Who are you?");
+
+			var car = new Array("BMW", "Saab", "Maserati");
+			var carPictures = new Array("Bmw.jpg", "Saab.jpg", "Maserati.jpg");
+			var randomCar =Math.floor(Math.random()*car.length)
+
+			if(username==="Dipesh") {
+				document.write("<h1>Hello " + username + " you won a " +  car[randomCar] + "!</h1>");
+				
+			}
+			else if(username=== "Roshan"){
+				document.write("<h1>Hello " + username + " you won a " +  car[randomCar] + "!</h1>");
+				document.write("<img src=\"" + carPictures[randomCar] +"\">");
+
+			}
+			else {
+				document.write("<h1>Hello " + username + "Try Again!");
+			}
+			document.write(randomNumber);
+
+		</script>
+
+	</head>
+
+	<body>
+
+	</body>
+
+</html>
